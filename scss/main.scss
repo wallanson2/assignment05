@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  margin: 0;
+}
+.app-container {
+  width: 100%;
+  display: inline-block;
+  font-size: 0;
+}
+
+.logo img {
+  display: block;
+  margin-left: 28%;
+  margin-top: 20px;
+}
+p {
+  text-align: center;
+  font-size: small;
+}
+img {
+  width:50%;
+  display: inline-block;
+  vertical-align: top;
+}
+.foot-container {
+  display: block;
+}
+.button {
+  height: 30px;
+  width: 30px;
+  background: grey;
+  margin: auto;
+  margin-top: 15px;
+  position: relative;
+}
+.button i {
+  color: white;
+  padding-left: 5px;
+  height: 23px;
+  position: absolute;
+}
+form input {
+  margin: 15px 0 25px 35%;
+}
+.ticket-box-button  a {
+  text-decoration: none;
+  color: grey;
+}
+
+
+.input-wrapper {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 10px;
+  margin: auto;
+  position: relative;
+}
+input {
+  height: 30px;
+  width: 200px;
+}
+.icon-wrapper i {
+  font-size: 15px;
+  color: lightgrey;
+  margin-top: -20px;
+  margin-left: 60%;
+  margin-bottom: 20px;
+  position: absolute;
+}
+.search-wrapper {
+  font-size: 0;
+  margin-top: 10px;
+}
+.search-wrapper > * {
+  display: block;
+  height: 30px;
+}
+.icon-wrapper {
+  display: block;
+}
+
+
+@media screen and (min-width: 768px) {
+  img {
+    width: 33.3333333%;
+  }
+  .logo {
+    display: inline-block;
+    width: 80%;
+  }
+  .logo img {
+    margin-left: 15px;
+    margin-bottom: 20px;
+    width: 200px;
+  }
+  p {
+    height: 40px;
+    width: 10%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: medium;
+    margin-top: 20px;
+    padding-top: 10px;
+  }
+  #top-hash {
+    border-right: 1px solid lightgrey;
+  }
+  .search-wrapper > * {
+    display: block;
+    height: 30px;
+  }
+  .input-wrapper {
+    position: relative;
+    margin-top: 5px;
+  }
+  .icon-wrapper i {
+    margin-left: 58%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  img {
+    width: 25%;
+  }
+  .button {
+    display: none;
+  }
+  .input-wrapper {
+    background: rgba(255,255,255,.8);
+    margin-top: -60px;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 10px;
+    position: relative;
+    width:100%
+  }
+  input {
+    border: 1px solid grey;
+  }
+  .icon-wrapper {
+    margin-top: -32px;
+    i {
+      margin-left: 200px;
+      margin-top: 4px;
+    }
+  }
+
+  .search-wrapper > * {
+    display: block;
+    vertical-align: top;
+    height: 50px;
+  }
+}
